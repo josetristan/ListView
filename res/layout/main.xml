@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+        
+    <Button
+        android:id="@+id/btListViewPersonalizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListViewPersonalizado" />       
+        
+    <Button
+        android:id="@+id/btSimpleCursorAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpleCursorAdapter" />    
+
+    <Button
+        android:id="@+id/btOptimizacionListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimización" />
+
+    <Button
+        android:id="@+id/btOptimizacionListViewConCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opt. con check" />
+
+    <Button
+        android:id="@+id/btListViewConScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Con scroll" />
+
+</LinearLayout>
